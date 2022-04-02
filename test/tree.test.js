@@ -142,7 +142,7 @@ describe("Tree", () => {
     });
   });
 
-  describe.skip("breadth first search", () => {
+  describe("breadth first search", () => {
     it("will give an empty array for an empty tree", () => {
       expect(tree.bfs()).toEqual([]);
     });
